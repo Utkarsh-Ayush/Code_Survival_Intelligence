@@ -1,0 +1,43 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environment ─────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Cloned Repos (large, re-cloneable) ──────────────────
+raw_repos/
+
+# ── Data (large / generated) ────────────────────────────
+# The SQLite database is 1.5GB — download separately
+data/td_V2.db
+
+# Generated CSVs (reproducible via scripts)
+data/*.csv
+
+# Large result CSVs (reproducible)
+results/roi_financial_report.csv
+results/roi_scores.csv
+
+# ── IDE / OS ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Temp / Scratch ───────────────────────────────────────
+data/pdf_text*.txt
+*.tmp
+*.zip
